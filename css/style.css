@@ -73,6 +73,19 @@ i {
 	background-size: cover;
 }
 
+.about {
+	position: relative;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+
+  	background: url("../img/bg-about.jpg");
+	background-position: center;
+	background-size: cover;	
+
+	-webkit-clip-path: polygon(0 0, 0 100%, 100% 70%, 50% 0);
+}
+
 h1, h2 {
 	font-family: 'Hanalei Fill', cursive;
 }
