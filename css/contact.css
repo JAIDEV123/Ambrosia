@@ -87,20 +87,6 @@ i {
 	z-index: 100;
 }
 
-.about {
-	position: relative;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 100px;
-
-  	background: url("../img/bg-about.jpg");
-	background-position: center;
-	background-size: cover;	
-
-	-webkit-clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
-	clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
-}
-
 .blocko-top {
 	padding: 5% 20% 5% 20%;
 }
@@ -158,47 +144,6 @@ i {
 	color: #241A70;
 }
 
-.table td {
-   text-align: center;   
-}
-
-.table th {
-	width: 25%;
-}
-
-.fab {
-  padding: 20px;
-  font-size: 100%;
-  width: 3.5rem;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 100%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook-f {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-linkedin-in {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-instagram {
-  background: rgba(220,20,60,1);
-  color: white;
-}
-
-.fa-github-alt{
-	background: black;
-	color: white;
-}
 
 h1, h2 {
 	font-family: 'Hanalei Fill', cursive;
