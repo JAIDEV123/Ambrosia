@@ -53,6 +53,10 @@ i {
 	padding-right: 10px;
 }
 
+.h-5 {
+	height: 5%!important;
+}
+
 .h-40 {
 	height: 40%!important;
 }
@@ -78,8 +82,8 @@ i {
 }
 
 .bg-blue {
-	background-color: #241A70;
-	background: #241A70;
+	background-color: #537982;
+	background: #537982;
 	color: white;
 }
 
@@ -133,7 +137,12 @@ i {
 }
 
 .txt-dark-blue{
-	color: #241A70;
+	color: #537982;
+}
+
+.btn-blue{
+	background-color: #01CED1;
+	color: white;
 }
 
 
@@ -151,6 +160,9 @@ i {
 	clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
 }
 
+.form {
+	margin-bottom: 25px;
+}
 
 h1, h2 {
 	font-family: 'Hanalei Fill', cursive;
