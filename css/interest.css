@@ -3,6 +3,7 @@
 body, html {
 	width: 100%;
 	height: 100%;
+	background-color: #f7e6ff;
 }
 
 nav {
@@ -13,15 +14,15 @@ nav {
 }
 
 .nav-link {
-	color: #01CED1; /
+	color: #241A70; 
 }
 
 .nav-link:hover {
-	color: #3683D1; /* Blue */
+	opacity: 70%; /* Blue */
 }
 
 .navbar-toggler {
-	color: #01CED1;
+	color: rgba(148,0,212,1);
 	border: none;
 }
 
@@ -82,14 +83,47 @@ i {
 }
 
 .bg-blue {
-	background-color: #537982;
-	background: #537982;
+	background-color: #241A70;
+	background: #241A70;
 	color: white;
 }
 
 .heading {
 	z-index: 100;
 }
+
+.interest {
+	position: relative;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+
+  	background: url("../img/bg-interests.jpg");
+	background-position: center;
+	background-size: cover;	
+
+	-webkit-clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
+	clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
+}
+
+.clip {
+	padding: 0px;
+	background-position: center;
+	background-size: cover;
+	-webkit-clip-path: polygon(0 30%, 0 80%, 100% 100%, 100% 0);
+	clip-path: polygon(0 30%, 0 80%, 100% 100%, 100% 0);
+}
+
+.clip::after {
+    content: '';
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: -webkit-linear-gradient(left, rgba(224,153,255,0.4) 0%, rgba(201,77,255,0.4) 18%, rgba(148,0,212,0.4) 57%, rgba(148,0,212,0.4) 100%);
+	background-image: linear-gradient(to right, rgba(224,153,255,0.4) 0%, rgba(201,77,255,0.4) 18%, rgba(148,0,212,0.4) 57%, rgba(148,0,212,0.4) 100%);
+} 
 
 .blocko-top {
 	padding: 5% 20% 5% 20%;
@@ -128,6 +162,7 @@ i {
 	color: #ffffff;
 }
 
+
 .obj-fit {
 	object-fit: cover;
 }
@@ -137,45 +172,59 @@ i {
 }
 
 .txt-dark-blue{
-	color: #537982;
+	color: #241A70!important;
 }
 
-.btn-blue{
-	background-color: #01CED1;
+.txt-header {
+	color: white!important;
+}
+
+.table td {
+   text-align: center;   
+}
+
+.table th {
+	width: 25%;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 100%;
+  width: 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-f {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgba(220,20,60,1);
+  color: white;
+}
+
+.fa-github-alt{
+	background: black;
 	color: white;
 }
 
-
-.contact {
-	position: relative;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 100px;
-
-  	background: url("../img/bg-contact.jpg");
-	background-position: center;
-	background-size: cover;	
-
-	-webkit-clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
-	clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
-}
-
-.contact2 {
-	position: relative;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 100px;
-
-  	background: url("../img/bg-contact-2.gif");
-	background-position: center;
-	background-size: cover;	
-
-	-webkit-clip-path: polygon(0 30%, 0 80%, 100% 100%, 100% 0);
-	clip-path: polygon(0 30%, 0 80%, 100% 100%, 100% 0);
-}
-
-.form {
-	margin-bottom: 25px;
+.bg-white {
+	background-color: white;
+	background: white;
+	color: white;
 }
 
 h1, h2 {

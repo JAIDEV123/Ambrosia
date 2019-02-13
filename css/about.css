@@ -101,6 +101,20 @@ i {
 	clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
 }
 
+.about-2 {
+	position: relative;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+
+  	background: url("../img/bg-about-2.jpg");
+	background-position: center;
+	background-size: cover;	
+
+	-webkit-clip-path: polygon(0 30%, 0 80%, 100% 100%, 100% 0);
+	clip-path: polygon(0 30%, 0 80%, 100% 100%, 100% 0);	
+}
+
 .blocko-top {
 	padding: 5% 20% 5% 20%;
 }
