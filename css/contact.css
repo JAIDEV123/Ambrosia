@@ -153,7 +153,7 @@ i {
 	padding-top: 100px;
 
   	background: url("../img/bg-contact.jpg");
-	background-position: center;
+	background-position: bottom;
 	background-size: cover;	
 
 	-webkit-clip-path: polygon(0 0, 0 100%, 100% 70%, 75% 0);
@@ -165,13 +165,14 @@ i {
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 100px;
+	margin-bottom: 0; padding-bottom: 0px;
 
   	background: url("../img/bg-contact-2.gif");
-	background-position: center;
+	background-position: top;
 	background-size: cover;	
 
-	-webkit-clip-path: polygon(0 30%, 0 80%, 100% 100%, 100% 0);
-	clip-path: polygon(0 30%, 0 80%, 100% 100%, 100% 0);
+	-webkit-clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 0);
+	clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 0);
 }
 
 .form {
