@@ -51,23 +51,39 @@ i {
 
 .head {
 	position: relative;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 100px;
-
-  	background: url("../img/bg-head.jpg");
+/*	padding-top: 75px;
+*/  background: url("../img/bg-head.jpg");
 	background-position: center;
 	background-size: cover;
 }
 
+/*@media screen and (max-width: 900px)
+{
+	.head {
+		padding-top: 150px;
+	}
+}*/
+
 .heading {
 	z-index: 100;
+	padding-top: -100px;
+}
+
+.hidden {
+	overflow: hidden;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 .pic1 {
-	position: fixed;
+	position: relative;
   	background: url("../img/pic1.svg");
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;

@@ -92,7 +92,7 @@ i {
 }
 
 .blocko-top {
-	padding: 5% 20% 5% 20%;
+	padding: 2% 20% 5% 20%;
 }
 
 .blocko {
@@ -169,7 +169,7 @@ i {
 
   	background: url("../img/bg-contact-2.gif");
 	background-position: top;
-	background-size: cover;	
+	background-size: cover;
 
 	-webkit-clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 0);
 	clip-path: polygon(0 30%, 0 100%, 100% 100%, 100% 0);
