@@ -20,16 +20,17 @@
     <link href="css/contact.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   	<script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg fixed-top main-nav" id="navbar">
+	<nav class="navbar navbar-expand-lg fixed-top main-nav reveal15" id="navbar">
 	  <a href="./index.html" class="navbar-brand">
 	  	<h1>Ambrosia</h1>
 	  </a>
 
-	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler">
+	  <button class="navbar-toggler" type="button" onclick="openNav(); return false;" id="toggler">
 	    <i class="fas fa-bars"></i>
 	  </button>
 
@@ -48,7 +49,16 @@
 	  </div>
 	</nav>
 
-	<header class="h-50 w-100 text-white contact">
+	<div class="overlay" id="fullNav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+		    <a href="about.html"><i class="fa fa-search"></i>About</a>
+		    <a class="nav-link" href="interest.html"><i class="fa fa-clipboard"></i>Interests</a>
+		    <a class="nav-link" href="contact.html"><i class="fas fa-mail-bulk"></i>Contact</a>
+		</div>
+	</div>
+
+	<header class="h-50 w-100 text-white contact reveal0">
 		<div class="container-fluid h-100 w-100">
 			<div class="row h-100">
 				<div class="container d-flex align-items-center justify-content-center w-100 h-100">
@@ -60,7 +70,7 @@
 		</div>
 	</header>
 
-	<div class="container blocko-top">
+	<div class="container blocko-top reveal5">
 		<div class="col text-center">
 			<p>
 				Lorem ipsum dolor sit amet, per at meis appetere eloquentiam! Ad cum sumo scaevola pertinacia! Consul fuisset mea ea, no pro rebum elaboraret?
@@ -74,7 +84,7 @@
 		</div>
 	</div>
 
-	<div class="container form reveal0 blocko-top">
+	<div class="container form reveal0 blocko-top reveal0">
 		<form action="https://formspree.io/jaidevtrumpet@gmail.com" method="POST" />
 			<div class="form-group">
 				<label for="name">Name</label>
@@ -96,7 +106,7 @@
 
 
 	<footer>
-		<div class="container-fluid bg-blue">
+		<div class="container-fluid bg-blue reveal0">
 			<div class="row">
 				<div class="col text-center" style="margin-top: 10px; margin-bottom: 10px;">
 					<a href="https://www.facebook.com" class="fab fa-facebook-f" target="_blank"></a>

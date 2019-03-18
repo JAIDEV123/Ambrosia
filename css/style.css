@@ -49,6 +49,46 @@ i {
   margin: 0;
 }
 
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #01CED1;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.overlay a {
+  padding: 1%;
+  text-decoration: none;
+  font-size: 150%;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #3683D1!important;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  font-size: 200%;
+}
+
 .head {
 	position: relative;
 /*	padding-top: 75px;
