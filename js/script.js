@@ -1,3 +1,5 @@
+$('body').css("display","block");
+
 $(document).on("scroll", function() {
 
   if($(document).scrollTop()>25) {
